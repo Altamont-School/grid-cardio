@@ -58,10 +58,15 @@ img {
   margin-top: auto;
 }
 
+.problem-3 div {
+  background: blue;
+  height: 200px;
+  width: 100%;
+}
+
 /* YOU CAN START YOUR WORK BELOW HERE */
 
 .hero {
-  display: grid;
   background-image: linear-gradient(
       to right,
       rgba(59, 59, 59, 0.5),
@@ -74,7 +79,6 @@ img {
   min-height: 500px;
   width: 100%;
   color: white;
-  place-items: center center;
 }
 
 .hero-text {
@@ -97,28 +101,11 @@ img {
 }
 
 .problem-2 {
-  display: grid;
-  grid-gap: 40px;
   height: 400px;
-  grid-template-columns: 1fr 1fr;
-  place-items: center start;
 }
 
 .problem-3 {
-  display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
-  place-items: center center;
-  grid-gap: 10px;
-}
-
-.problem-3 div {
-  background: blue;
-  height: 200px;
-  width: 100%;
 }
 
 .problem-4 {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  grid-gap: 40px;
 }
